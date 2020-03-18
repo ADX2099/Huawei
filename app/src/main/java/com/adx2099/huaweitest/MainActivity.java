@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button calculate;
     private EditText varA, varB;
     private TextView TextViewResult;
-    public int total;
+    private int total;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
